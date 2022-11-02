@@ -1,2 +1,3 @@
 NLW Copa
-Projeto feito na NLW
+
+Projeto construído no evento Next Level Week da Rocketseat.
