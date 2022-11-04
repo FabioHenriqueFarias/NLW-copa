@@ -22,5 +22,22 @@ function createCard(date, day, games){
 
 document.querySelector("#cards").innerHTML = 
         createCard("24/11", "Quinta", createGame("brazil", "16:00", "serbia")) +
-        createCard("28/11", "segunda", createGame("switzerland", "16:00", "cameroon") + createGame("portugal", "16:00", "uruguay"))
+        createCard("28/11", "segunda", createGame("switzerland", "16:00", "cameroon") + createGame("portugal", "16:00", "uruguay"));
+
+let body = document.querySelector("body");
+let drawColor = (Math.random() * (3 - 1) + 1).toFixed(0);
+let bodyClass;
+if (drawColor == 1){
+    bodyClass = "yellow";
+    console.log("entrei a");
+}
+if (drawColor == 2){
+    bodyClass = "blue";
+    console.log("entrei b");
+}
+if(drawColor == 3){
+    bodyClass = "green";
+console.log("entrei b");
+}
+body.setAttribute("class", `${bodyClass || "yellow"}`)
 
