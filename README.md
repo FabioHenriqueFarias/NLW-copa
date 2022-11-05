@@ -28,7 +28,7 @@ O calendário da copa é um projeto que mostra os jogos da copa de 2022.
 
 ## 📄 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]().
+Você pode visualizar o layout do projeto através [DESSE LINK](https://fabiohenriquefarias.github.io/NLW-copa/).
 
 
 
