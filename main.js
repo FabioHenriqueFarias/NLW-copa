@@ -29,15 +29,12 @@ let drawColor = (Math.random() * (3 - 1) + 1).toFixed(0);
 let bodyClass;
 if (drawColor == 1){
     bodyClass = "yellow";
-    console.log("entrei a");
 }
 if (drawColor == 2){
     bodyClass = "blue";
-    console.log("entrei b");
 }
 if(drawColor == 3){
     bodyClass = "green";
-console.log("entrei b");
 }
 body.setAttribute("class", `${bodyClass || "yellow"}`)
 
